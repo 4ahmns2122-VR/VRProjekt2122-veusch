@@ -20,8 +20,8 @@ Oculus Rift/S; Quest/2
 Screenshots (concept and experience), Video
 
 ### Third party material: 
-For testing without a headset, use the XR Device Simulator (included in the xr interaction toolkit package):  https://www.youtube.com/watch?v=d4bTpkvBwrs
+For testing without a headset, use the XR Device Simulator (included in the xr interaction toolkit package): https://www.youtube.com/watch?v=3cJ_uq1m-dg&t=1s https://www.youtube.com/watch?v=d4bTpkvBwrs
 
 ### Limitations/Problems: 
 
-Copyright by smeerws :)
+Copyright by veusch 

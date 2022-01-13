@@ -9,7 +9,7 @@ public class ScriptWater : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
 
@@ -17,15 +17,13 @@ public class ScriptWater : MonoBehaviour
     {
         if (other.name == "waterfall")
         {
-            gameObject.GetComponent<SphereCollider>().isTrigger = false;
+            gameObject.GetComponent<SphereCollider>().isTrigger = true;
             water.SetActive(true);
+
+
         }
-
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
+   
+

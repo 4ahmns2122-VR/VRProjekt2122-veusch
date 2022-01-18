@@ -15,12 +15,14 @@ public class ScriptWater : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.name == "waterfall")
+        Debug.Log("Kübel berührt wasser"+other.name);
+        if (other.name == "WaterFallNew")
         {
-            gameObject.GetComponent<SphereCollider>().isTrigger = true;
+          
+           // gameObject.GetComponent<SphereCollider>().isTrigger = true;
             water.SetActive(true);
-
-
+            GameState.instance.StateWaterFilled=true;
+           
         }
     }
 

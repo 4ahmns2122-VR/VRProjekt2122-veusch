@@ -57,7 +57,7 @@ Oculus Rift
 
 ### Assets: 
 https://www.youtube.com/watch?v=d4bTpkvBwrs <br>
-https://www.youtube.com/watch?v=w8dZl8uheKA&list=PLF_C4B6VLkIepN4WqxFhkUaoju8SHyBNu&index=2
+https://www.youtube.com/watch?v=w8dZl8uheKA&list=PLF_C4B6VLkIepN4WqxFhkUaoju8SHyBNu&index=2 <br>
 https://www.youtube.com/watch?v=3cJ_uq1m-dg&t=3s
 
 

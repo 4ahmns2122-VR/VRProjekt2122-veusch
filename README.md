@@ -1,27 +1,65 @@
-# XRInteractionToolkitTemplate
+# VRProjektVeusch
 
-### Project description: 
-This project serves as sample project for spatial audio. 
-Explore sound in its basics in virtual reality (VR).
+### Spielidee/Ablauf/Tasks: 
+Das Labyrinth findet statt in einer Eishöhle. Nachkurzer Zeit bricht in einer Stelle der Höhle einFeuer aus und damit die Höhle nichtzusammenbricht muss mithilfe eines Kübels und Wasser das Feuer gelöscht werden. Anfangs muss man einen Kübel finden, damit man darauf mit diesem Wasser aus einem Wasserfall zum Feuer Löschen benutzen kann.<br>
+1.Task: den Kübel finden <br>
+2.Task: Wasser in den Kübel schaufeln<br>
+3.Task Feuer löschen<br>
 
-### Development platform: 
-OS: Windows 10, Game Engine: Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit
+### MVP
+Eishöhle<br>
+Kübel einsammeln<br>
+Wasser einsammeln<br>
+Feuer löschen<br>
 
-## Software/Hardware Requirements: 
-Oculus hardware requirements https://support.oculus.com/248749509016567/
-You need a VR headset in this case an Oculus Rift/Quest/Quest2
 
-When downlaoded, you have compile time errors in the project. To solve them install the XR interaction toolkit package via the Package Manager. (!Enable in Advanced Settings Preview Packages).
 
-### Target platform: 
-Oculus Rift/S; Quest/2
+### Arbeitsschritte
+Labyrinth in Unity importieren<br>
+Testen<br>
+Whiteboxing<br>
+Tür einstellen, öffnen lassen<br>
+Kübel modellieren<br>
+Kübel positionieren<br>
+Kübel Pick Up tauglich machen<br>
+Environment designen<br>
+Environment modellieren<br>
+Lichterquellen einfügen<br>
+Research wie man den Sound einbindet<br>
+Sounds suchen/aufnehmen<br>
+Sound einbringen<br>
+Wasserquelle modellieren<br>
+Wasserquelle eintauchbar und einsammelbar machen<br>
+Informieren wie man Feuer am besten in VR einbringt<br>
+Feuer modellieren/einfügen<br>
+Dummy Sounds<br>
+Wenn Funktion passt Projekt weiter ausbauen<br>
+Austesten von Funktionen und Features<br>
+Features zusammenstellen<br>
+Feedback einholen<br>
+Feedback umsetzen<br>
+Ausgang durch die zweite Tür<br>
+Build<br>
 
-### Visuals: 
-Screenshots (concept and experience), Video
+### Audio
+Eisbrech-Soundeffekt (evt. selber aufnehmen)<br>
+Wassertropfen<br>
+Feuer-sfx<br>
+Hall<br>
+Fußschritte (evt. selber aufnehmen)<br>
+Wind<br>
+Atmosphere<br>
+Wasser<br>
 
-### Third party material: 
-For testing without a headset, use the XR Device Simulator (included in the xr interaction toolkit package): https://www.youtube.com/watch?v=3cJ_uq1m-dg&t=1s https://www.youtube.com/watch?v=d4bTpkvBwrs
+### Worauf?: 
+Oculus Rift
 
-### Limitations/Problems: 
 
-Copyright by veusch 
+### Assets: 
+https://www.youtube.com/watch?v=d4bTpkvBwrs <br>
+https://www.youtube.com/watch?v=w8dZl8uheKA&list=PLF_C4B6VLkIepN4WqxFhkUaoju8SHyBNu&index=2 <br>
+https://www.youtube.com/watch?v=3cJ_uq1m-dg&t=3s
+
+
+
+#### Copyright by veusch 

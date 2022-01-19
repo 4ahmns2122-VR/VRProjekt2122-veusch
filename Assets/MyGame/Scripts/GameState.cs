@@ -10,6 +10,8 @@ public class GameState : MonoBehaviour
 
     public bool StateWaterFilled=false;
 
+    public int fireOut;
+
     private void Awake()
     {
         if (instance != null)

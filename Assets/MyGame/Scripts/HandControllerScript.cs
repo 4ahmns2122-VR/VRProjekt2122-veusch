@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -14,7 +11,6 @@ public class HandControllerScript : MonoBehaviour
     private void Awake()
     {
         handAnimator = GetComponent<Animator>();
-        
     }
 
     private void OnEnable()

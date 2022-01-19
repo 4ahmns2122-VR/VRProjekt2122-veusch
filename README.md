@@ -1,8 +1,18 @@
-# XRInteractionToolkitTemplate
+# VRProjektVeusch
 
 ### Project description: 
-This project serves as sample project for spatial audio. 
-Explore sound in its basics in virtual reality (VR).
+Das Labyrinth findet statt in einer Eishöhle. Nachkurzer Zeit bricht in einer Stelle der Höhle einFeuer aus und damit die Höhle nichtzusammenbricht muss mithilfe eines Kübels und Wasser das Feuer gelöscht werden. Anfangs muss man einen Kübel finden, damit man darauf mit diesem Wasser aus einem Wasserfall zum Feuer Löschen benutzen kann.
+1.Task: den Kübel finden
+2.Task: Wasser in den Kübel schaufeln
+3.Task Feuer löschen
+
+#MVP
+Eishöhle
+Kübel einsammeln
+Wasser einsammeln
+Feuer löschen
+
+Umgesetzt wird das Projekt mit Rift
 
 ### Development platform: 
 OS: Windows 10, Game Engine: Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit

@@ -12,6 +12,11 @@ Kübel einsammeln<br>
 Wasser einsammeln<br>
 Feuer löschen<br>
 
+### Bemerkungen
+Das Feuer habe ich selbst modelliert und den Wasserfall mithilfe eines Tutorials angepasst.
+
+### Gescheiterte Versuche
+Ich habe versucht ein von physikalischen Kräften beeinflussbares Wasser zu machen, das hat aber leider nicht funktioniert, deswegen habe ich dieses wieder entfernt.
 
 
 ### Arbeitsschritte

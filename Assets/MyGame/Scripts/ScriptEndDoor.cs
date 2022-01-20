@@ -7,7 +7,7 @@ public class ScriptEndDoor : MonoBehaviour
    
     void Start()
     {
-        transform.position = new Vector3(-8, 0, -2);
+        transform.position = new Vector3(-8.3f, 0.03f, -2.75f);
     }
 
     

@@ -11,6 +11,10 @@ public class GameState : MonoBehaviour
     public bool StateWaterFilled=false;
 
     public int fireOut;
+    public int fire1Out;
+    public int fire2Out;
+    public int fire3Out;
+
 
     private void Awake()
     {

@@ -1,7 +1,7 @@
 # VRProjektVeusch
 
 ### Spielidee/Ablauf/Tasks: 
-Das Labyrinth findet statt in einer Eishöhle. Nachkurzer Zeit bricht in einer Stelle der Höhle einFeuer aus und damit die Höhle nichtzusammenbricht muss mithilfe eines Kübels und Wasser das Feuer gelöscht werden. Anfangs muss man einen Kübel finden, damit man darauf mit diesem Wasser aus einem Wasserfall zum Feuer Löschen benutzen kann.<br>
+Das Labyrinth findet statt in einer Eishöhle. Nach kurzer Zeit bricht in einer Stelle der Höhle ein Feuer aus und damit die Höhle nicht zusammenbricht muss mithilfe eines Kübels und Wasser das Feuer gelöscht werden. Anfangs muss man einen Kübel finden, damit man darauf mit diesem Wasser aus einem Wasserfall zum Feuer Löschen benutzen kann. Nach dem löschen der drei Feuerstellen wird das Tor am Ende geöffnet und der SPieler kann das Labyrinth verlassen. Des Weiteren wird am Eingang der Höhle ein Hologram projeziert, was dem Spieler die Mission und Sachlage erklärt.<br>
 1.Task: den Kübel finden bzw. aufheben <br>
 2.Task: Wasser in den Kübel schaufeln<br>
 3.Task Feuer löschen<br>

@@ -1,7 +1,7 @@
 # VRProjektVeusch
 
 ### Spielidee/Ablauf/Tasks: 
-Das Labyrinth findet statt in einer Eishöhle. Nach kurzer Zeit bricht in einer Stelle der Höhle ein Feuer aus und damit die Höhle nicht zusammenbricht muss mithilfe eines Kübels und Wasser das Feuer gelöscht werden. Anfangs muss man einen Kübel finden, damit man darauf mit diesem Wasser aus einem Wasserfall zum Feuer Löschen benutzen kann. Nach dem löschen der drei Feuerstellen wird das Tor am Ende geöffnet und der SPieler kann das Labyrinth verlassen. Des Weiteren wird am Eingang der Höhle ein Hologram projeziert, was dem Spieler die Mission und Sachlage erklärt.<br>
+Das Labyrinth findet statt in einer Eishöhle. Nach kurzer Zeit bricht in einer Stelle der Höhle ein Feuer aus und damit die Höhle nicht zusammenbricht muss mithilfe eines Kübels und Wasser das Feuer gelöscht werden. Anfangs muss man einen Kübel finden, damit man darauf mit diesem Wasser aus einem Wasserfall zum Feuer Löschen benutzen kann. Nach dem löschen der drei Feuerstellen wird das Tor am Ende geöffnet und der SPieler kann das Labyrinth verlassen. Des Weiteren wird am Eingang der Höhle ein Hologram projeziert, was dem Spieler die Mission und Sachlage erklärt.<br> <br>
 1.Task: den Kübel finden bzw. aufheben <br>
 2.Task: Wasser in den Kübel schaufeln<br>
 3.Task Feuer löschen<br>
@@ -13,7 +13,7 @@ Wasser einsammeln<br>
 Feuer löschen<br>
 
 ### Bemerkungen
-Das Feuer habe ich selbst modelliert und den Wasserfall mithilfe eines Tutorials angepasst.
+Das Feuer habe ich selbst modelliert und den Wasserfall mithilfe eines Tutorials angepasst. Auch der projezierte DescriptionText am Beginn des Beginns wurde selbst programmiert und nirgends entnommen.
 
 ### Gescheiterte Versuche
 Ich habe versucht ein von physikalischen Kräften beeinflussbares Wasser zu machen, das hat aber leider nicht funktioniert, deswegen habe ich dieses wieder entfernt. Auch habe ich versucht die Eiscracks im Sound so zu programmieren, dass diese über den Verlauf des Spieles mehr werden, habe es aber nicht geschafft fehlerfrei umzusetzten. Darüber hinaus wollte ich eine Höhle mit Decke machen und habe dazu auch in Blender schon Modells modelliert, aber ich hatte Probleme diese ins Labyrinth einzubauen, da ich das ganze nachbauen müsste im halbwegs richtigen Maßstab.
@@ -47,18 +47,18 @@ Ausgang durch die zweite Tür<br>
 Build<br>
 
 ### Packages
-XR Interaction Toolkit 1.0.0-pre.8
-XR Plugin Management 4.2.0
-Visual Studio Editor 2.0.11
-JetBrains Rider Editor 2.0.7
-Oculus XR Plugin 1.10.0
-Post Processing 3.1.1
-Test Framework 1.1.29
-TextMeshPro 3.0.6
-Timeline 1.4.8
-Unity UI 1.0.0
-Version Control 1.9.0
-Visual Studio Code Editor 1.2.4
+XR Interaction Toolkit 1.0.0-pre.8<br>
+XR Plugin Management 4.2.0<br>
+Visual Studio Editor 2.0.11<br>
+JetBrains Rider Editor 2.0.7<br>
+Oculus XR Plugin 1.10.0<br>
+Post Processing 3.1.1<br>
+Test Framework 1.1.29<br>
+TextMeshPro 3.0.6<br>
+Timeline 1.4.8<br>
+Unity UI 1.0.0<br>
+Version Control 1.9.0<br>
+Visual Studio Code Editor 1.2.4<br>
 
 
 ### Audio

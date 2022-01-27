@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ScriptFire : MonoBehaviour
 {
+
     public GameObject fire;
     public GameObject fire2;
     public GameObject fire3;
@@ -36,7 +37,7 @@ public class ScriptFire : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Kübel berührt feuer" + other.name);
+        
 
         if (GameState.instance.StateWaterFilled==true)
         {
@@ -78,4 +79,5 @@ public class ScriptFire : MonoBehaviour
         }
 
     }
+
 }

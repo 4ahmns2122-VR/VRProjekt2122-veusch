@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ColliderSCriptRightHandDoor : MonoBehaviour
 {
-    
+    public AudioSource audioSource;
+    public AudioSource audioSource2;
 
 
     void Start()
@@ -20,7 +21,17 @@ public class ColliderSCriptRightHandDoor : MonoBehaviour
         {
             gameObject.GetComponent<SphereCollider>().isTrigger = false;
             Debug.Log("trigger geht");
+            audioSource.Play();
         }
+
+        if (other.name == "SM_Wooden_Bucket")
+        {
+            gameObject.GetComponent<SphereCollider>().isTrigger = false;
+            Debug.Log("trigger geht");
+            audioSource2.Play();
+        }
+
+
     }
 
     void Update()

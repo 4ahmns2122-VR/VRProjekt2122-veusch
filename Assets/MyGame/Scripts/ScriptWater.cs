@@ -5,6 +5,8 @@ using UnityEngine;
 public class ScriptWater : MonoBehaviour
 {
     public GameObject water;
+    public GameObject water2;
+    public GameObject water3;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +23,8 @@ public class ScriptWater : MonoBehaviour
           
            // gameObject.GetComponent<SphereCollider>().isTrigger = true;
             water.SetActive(true);
+            water2.SetActive(true);
+            water3.SetActive(true);
             GameState.instance.StateWaterFilled=true;
            
         }

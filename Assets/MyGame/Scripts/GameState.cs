@@ -15,6 +15,7 @@ public class GameState : MonoBehaviour
     public int fire2Out;
     public int fire3Out;
 
+    public int closeDoor;
 
     private void Awake()
     {

@@ -17,9 +17,11 @@ public class ScriptFire : MonoBehaviour
     public GameObject smoke2;
     public GameObject smoke3;
 
-
+    public int fireExtuinguished;
 
     public GameObject waterFilling;
+    public GameObject waterFillingStufe2;
+    public GameObject waterFillingStufe3;
 
 
 
@@ -33,7 +35,24 @@ public class ScriptFire : MonoBehaviour
 
     }
 
+    private void Update()
+    {
+        if(fireExtuinguished==1)
+        {
+            waterFilling.SetActive(false);
+        }
 
+        if (fireExtuinguished == 2)
+        {
+            waterFillingStufe2.SetActive(false);
+        }
+
+        if (fireExtuinguished == 3)
+        {
+            waterFillingStufe3.SetActive(false);
+        }
+
+    }
 
     public void OnTriggerEnter(Collider other)
     {
@@ -50,6 +69,7 @@ public class ScriptFire : MonoBehaviour
                 smoke.SetActive(true);
                 GameState.instance.fireOut++;
                 GameState.instance.fire1Out++;
+                fireExtuinguished++;
             }
 
             if (other.name == "Fire2")
@@ -60,7 +80,7 @@ public class ScriptFire : MonoBehaviour
                 smoke2.SetActive(true);
                 GameState.instance.fire2Out++;
 
-
+                fireExtuinguished++;
                 GameState.instance.fireOut++;
             }
 
@@ -71,7 +91,7 @@ public class ScriptFire : MonoBehaviour
                 fireDistortion3.SetActive(false);
                 smoke3.SetActive(true);
                 GameState.instance.fire3Out++;
-
+                fireExtuinguished++;
                 GameState.instance.fireOut++;
             }
 

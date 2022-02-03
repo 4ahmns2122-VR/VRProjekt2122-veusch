@@ -1,6 +1,6 @@
 # VRProjektVeusch
 
-### Spielidee/Ablauf/Tasks: 
+### Spielidee/Ablauf/Tasks: ###
 Das Labyrinth findet statt in einer Eishöhle. Nach kurzer Zeit bricht in einer Stelle der Höhle ein Feuer aus und damit die Höhle nicht zusammenbricht muss mithilfe eines Kübels und Wasser das Feuer gelöscht werden. Anfangs muss man einen Kübel finden, damit man darauf mit diesem Wasser aus einem Wasserfall zum Feuer Löschen benutzen kann. Nach dem löschen der drei Feuerstellen wird das Tor am Ende geöffnet und der SPieler kann das Labyrinth verlassen. Des Weiteren wird am Eingang der Höhle ein Hologram projeziert, was dem Spieler die Mission und Sachlage erklärt.<br> <br>
 1.Task: den Kübel finden bzw. aufheben <br>
 2.Task: Wasser in den Kübel schaufeln<br>
@@ -26,6 +26,12 @@ Ich habe versucht ein von physikalischen Kräften beeinflussbares Wasser zu mach
 Bei mir hat der Build nicht funktioniert, es kommt dabei immer ein Error.
 ![Error](https://user-images.githubusercontent.com/72389865/152388887-c42ca43a-8974-4c15-af75-d81f2f97890f.jpg)
 
+### Software/Hardware Requirements
+Oculus hardware requirements https://support.oculus.com/248749509016567/ You need a VR headset in this case an Oculus Rift <br>
+
+Build Settings -> Player Settings -> XR Plug-in Manager -> tick off Oculus <br>
+
+When downlaoded, you have compile time errors in the project. To solve them install the XR interaction toolkit package via the Package Manager. (!Enable in Advanced Settings Preview Packages).
 
 ### Arbeitsschritte
 Labyrinth in Unity importieren<br>

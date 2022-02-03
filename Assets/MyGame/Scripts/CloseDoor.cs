@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CloseDoor : MonoBehaviour
 {
+    public GameObject TürSteht;
     // Start is called before the first frame update
     void Start()
     {

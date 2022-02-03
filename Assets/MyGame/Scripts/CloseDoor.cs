@@ -5,6 +5,7 @@ using UnityEngine;
 public class CloseDoor : MonoBehaviour
 {
     public GameObject TürSteht;
+    public GameObject TürDreht;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +17,8 @@ public class CloseDoor : MonoBehaviour
     {
         if(GameState.instance.closeDoor==1)
         {
-            
+            TürSteht.SetActive(true);
+            TürDreht.SetActive(false);
         }
     }
 }

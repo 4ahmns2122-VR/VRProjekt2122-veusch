@@ -23,6 +23,9 @@ Das Feuer habe ich selbst modelliert und den Wasserfall mithilfe eines Tutorials
 ### Limitations
 Ich habe versucht ein von physikalischen Kräften beeinflussbares Wasser zu machen, das hat aber leider nicht funktioniert, deswegen habe ich dieses wieder entfernt. Auch habe ich versucht die Eiscracks im Sound so zu programmieren, dass diese über den Verlauf des Spieles mehr werden, habe es aber nicht geschafft fehlerfrei umzusetzten. Darüber hinaus wollte ich eine Höhle mit Decke machen und habe dazu auch in Blender schon Modells modelliert, aber ich hatte Probleme diese ins Labyrinth einzubauen, da ich das ganze nachbauen müsste im halbwegs richtigen Maßstab. Ich wollte für das Feuer eine Basis hinzufügen aus der diese entspringt habe aber nichts passendes gefunden, deswegen habe ich es so gelassen.
 
+Bei mir hat der Build nicht funktioniert, es kommt dabei immer ein Error.
+![Error](https://user-images.githubusercontent.com/72389865/152388887-c42ca43a-8974-4c15-af75-d81f2f97890f.jpg)
+
 
 ### Arbeitsschritte
 Labyrinth in Unity importieren<br>

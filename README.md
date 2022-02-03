@@ -1,6 +1,6 @@
 # VRProjektVeusch
 
-### Spielidee/Ablauf/Tasks: 
+### Spielidee/Ablauf/Tasks: ###
 Das Labyrinth findet statt in einer Eishöhle. Nach kurzer Zeit bricht in einer Stelle der Höhle ein Feuer aus und damit die Höhle nicht zusammenbricht muss mithilfe eines Kübels und Wasser das Feuer gelöscht werden. Anfangs muss man einen Kübel finden, damit man darauf mit diesem Wasser aus einem Wasserfall zum Feuer Löschen benutzen kann. Nach dem löschen der drei Feuerstellen wird das Tor am Ende geöffnet und der SPieler kann das Labyrinth verlassen. Des Weiteren wird am Eingang der Höhle ein Hologram projeziert, was dem Spieler die Mission und Sachlage erklärt.<br> <br>
 1.Task: den Kübel finden bzw. aufheben <br>
 2.Task: Wasser in den Kübel schaufeln<br>
@@ -21,8 +21,17 @@ Soundimplementiert 10.02.2021 - endless loops noch nicht<br>
 Das Feuer habe ich selbst modelliert und den Wasserfall mithilfe eines Tutorials angepasst. Auch der projezierte DescriptionText am Beginn des Labyrinths wurde selbst programmiert und nirgends entnommen.
 
 ### Limitations
-Ich habe versucht ein von physikalischen Kräften beeinflussbares Wasser zu machen, das hat aber leider nicht funktioniert, deswegen habe ich dieses wieder entfernt. Auch habe ich versucht die Eiscracks im Sound so zu programmieren, dass diese über den Verlauf des Spieles mehr werden, habe es aber nicht geschafft fehlerfrei umzusetzten. Darüber hinaus wollte ich eine Höhle mit Decke machen und habe dazu auch in Blender schon Modells modelliert, aber ich hatte Probleme diese ins Labyrinth einzubauen, da ich das ganze nachbauen müsste im halbwegs richtigen Maßstab. Ich habe versucht die Tür nach dem hineingehen zu fixieren bzw. zu schließen habe das aber nicht geschafft, da der Hinge Joint sich nicht deaktivieren hat lassen. Das Script TriggerCloseDoor habe ich disabled, weil es der falsche Ansatz war habe es aber im Projekt gelassen, dasselbe gilt für das Eimer Script.
+Ich habe versucht ein von physikalischen Kräften beeinflussbares Wasser zu machen, das hat aber leider nicht funktioniert, deswegen habe ich dieses wieder entfernt. Auch habe ich versucht die Eiscracks im Sound so zu programmieren, dass diese über den Verlauf des Spieles mehr werden, habe es aber nicht geschafft fehlerfrei umzusetzten. Darüber hinaus wollte ich eine Höhle mit Decke machen und habe dazu auch in Blender schon Modells modelliert, aber ich hatte Probleme diese ins Labyrinth einzubauen, da ich das ganze nachbauen müsste im halbwegs richtigen Maßstab. Ich wollte für das Feuer eine Basis hinzufügen aus der diese entspringt habe aber nichts passendes gefunden, deswegen habe ich es so gelassen.
 
+Bei mir hat der Build nicht funktioniert, es kommt dabei immer ein Error.
+![Error](https://user-images.githubusercontent.com/72389865/152388887-c42ca43a-8974-4c15-af75-d81f2f97890f.jpg)
+
+### Software/Hardware Requirements
+Oculus hardware requirements https://support.oculus.com/248749509016567/ You need a VR headset in this case an Oculus Rift <br>
+
+Build Settings -> Player Settings -> XR Plug-in Manager -> tick off Oculus <br>
+
+When downlaoded, you have compile time errors in the project. To solve them install the XR interaction toolkit package via the Package Manager. (!Enable in Advanced Settings Preview Packages).
 
 ### Arbeitsschritte
 Labyrinth in Unity importieren<br>

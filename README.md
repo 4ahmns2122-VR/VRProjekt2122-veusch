@@ -11,12 +11,17 @@ Eishöhle<br>
 Kübel einsammeln<br>
 Wasser einsammeln<br>
 Feuer löschen<br>
-
+### Milestones
+Milestone: Kübel aufheben funktioniert, Türlässt sich öffnen, Wasser lässt sich in den Kübelfüllen 09.12.2021 - Wassser in den Eimer füllen hat noch nicht funktioniert<br>
+Umgebung im Groben modelliert 13.01.2021 - Umgebung im Groben modellieren geschafft, Funktionen haben noch nicht einwandfrei Funktioniert <br>
+Feuer implementiert, Feuer löschbar 27.01.2021<br>
+Environment ausgearbeitet, Licht, usw., <br>
+Soundimplementiert 10.02.2021 - endless loops noch nicht<br>
 ### Bemerkungen
 Das Feuer habe ich selbst modelliert und den Wasserfall mithilfe eines Tutorials angepasst. Auch der projezierte DescriptionText am Beginn des Labyrinths wurde selbst programmiert und nirgends entnommen.
 
 ### Limitations
-Ich habe versucht ein von physikalischen Kräften beeinflussbares Wasser zu machen, das hat aber leider nicht funktioniert, deswegen habe ich dieses wieder entfernt. Auch habe ich versucht die Eiscracks im Sound so zu programmieren, dass diese über den Verlauf des Spieles mehr werden, habe es aber nicht geschafft fehlerfrei umzusetzten. Darüber hinaus wollte ich eine Höhle mit Decke machen und habe dazu auch in Blender schon Modells modelliert, aber ich hatte Probleme diese ins Labyrinth einzubauen, da ich das ganze nachbauen müsste im halbwegs richtigen Maßstab.
+Ich habe versucht ein von physikalischen Kräften beeinflussbares Wasser zu machen, das hat aber leider nicht funktioniert, deswegen habe ich dieses wieder entfernt. Auch habe ich versucht die Eiscracks im Sound so zu programmieren, dass diese über den Verlauf des Spieles mehr werden, habe es aber nicht geschafft fehlerfrei umzusetzten. Darüber hinaus wollte ich eine Höhle mit Decke machen und habe dazu auch in Blender schon Modells modelliert, aber ich hatte Probleme diese ins Labyrinth einzubauen, da ich das ganze nachbauen müsste im halbwegs richtigen Maßstab. Ich habe versucht die Tür nach dem hineingehen zu fixieren bzw. zu schließen habe das aber nicht geschafft, da der Hinge Joint sich nicht deaktivieren hat lassen.
 
 
 ### Arbeitsschritte
